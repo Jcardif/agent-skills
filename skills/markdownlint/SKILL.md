@@ -1,6 +1,6 @@
 ---
 name: markdownlint
-description: Lint and fix Markdown files using markdownlint-cli2. Use when creating, editing, or reviewing Markdown (.md) files, when the user asks to lint or fix markdown, or when checking markdown quality and consistency. Handles running the linter, interpreting errors, applying auto-fixes, configuring rules, and using inline directives.
+description: Ensures style consistency and correctness in Markdown files using markdownlint-cli2. Use whenever creating, updating, editing, or reviewing any Markdown (.md) file. Triggers on any task that creates or modifies .md files, including README.md, CHANGELOG.md, documentation, or any file with a .md extension. Also triggers when the user mentions markdown, linting, markdown formatting, markdown style, or markdownlint. Always run the linter after writing or editing markdown content — do not skip this step.
 ---
 
 # Markdownlint
