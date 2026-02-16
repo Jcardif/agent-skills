@@ -48,6 +48,20 @@ Write and edit scientific and academic papers in LaTeX following rigorous resear
 
 ## Installation
 
+### Context7 (by Upstash)
+
+[Context7](https://context7.com) maintains a registry of skills at [context7.com/skills](https://context7.com/skills) that can be installed directly into your AI coding assistant with a single command.
+
+```bash
+npx ctx7 skills install /Jcardif/agent-skills
+```
+
+This will list the available skills — select the one you want to install.
+
+### Skills.sh (by Vercel)
+
+You can also install skills using [Skills.sh](https://skills.sh):
+
 ```bash
 npx skills add Jcardif/agent-skills
 ```
