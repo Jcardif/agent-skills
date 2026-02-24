@@ -242,23 +242,6 @@ Parameters:
 
 - `maximum` (integer): Maximum consecutive blank lines. Default: `1`
 
-### MD013 — line-length
-
-Tags: `line_length`
-
-Line length limit.
-
-Parameters:
-
-- `line_length` (integer): Maximum line length. Default: `80`
-- `heading_line_length` (integer): Max heading length. Default: `80`
-- `code_block_line_length` (integer): Max code block line length. Default: `80`
-- `code_blocks` (boolean): Check code blocks. Default: `true`
-- `tables` (boolean): Check tables. Default: `true`
-- `headings` (boolean): Check headings. Default: `true`
-- `strict` (boolean): Count trailing spaces. Default: `false`
-- `stern` (boolean): Count trailing hyphens in ATX. Default: `false`
-
 ### MD027 — no-multiple-space-blockquote
 
 Tags: `blockquote`, `whitespace`, `spaces` | Fixable
